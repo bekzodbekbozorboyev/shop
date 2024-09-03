@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+:root {
+  --main-color: #0f0;
+  --dark-color: #fba004;
+  --link-color: aqua;
+  --light-color: #f1f1f1;
+  --white-color: #fff;
+  --old-price-color: grey;
+  --hover-orange-color: #ff7700;
+  --dark-blue: #080851;
+}

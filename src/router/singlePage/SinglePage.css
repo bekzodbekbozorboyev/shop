@@ -1,0 +1,87 @@
+.single-page {
+  width: 100%;
+}
+
+.single-page .single-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.single-wrapper .left {
+  width: 50%;
+  height: calc(100vh - 60px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2%;
+}
+
+.single-wrapper .left figure {
+  width: 70%;
+  height: 60%;
+  overflow: hidden;
+  padding: 2%;
+  border: 2px solid var(--dark-color);
+  border-radius: 10px;
+}
+
+.single-wrapper .left figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.single-wrapper .right {
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 2%;
+}
+
+.single-wrapper .right h1 {
+  margin-bottom: 15px;
+  font-size: 33px;
+  color: var(--dark-color);
+}
+
+.single-wrapper .right > p {
+  font-size: 17px;
+  line-height: 25px;
+  color: var(--dark-blue);
+  margin-bottom: 20px;
+}
+
+.single-wrapper .right > .buy {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 20px;
+  border: 1px solid var(--dark-color);
+  border-radius: 5px;
+}
+
+.single-wrapper .right > .buy p {
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--dark-blue);
+}
+
+.single-wrapper .right > .buy button {
+  all: unset;
+  background-color: var(--dark-color);
+  padding: 7px 16px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.single-wrapper .right > .buy button a {
+  color: var(--light-color);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+}
